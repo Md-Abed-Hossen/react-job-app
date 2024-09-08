@@ -67,6 +67,6 @@ const JobDetails = () => {
       <Footer />
     </>
   );
-};Y
+};
 
 export default JobDetails;
