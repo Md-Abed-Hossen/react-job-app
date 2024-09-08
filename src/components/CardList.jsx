@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './customcss/CardLIst.css';
 import TCard from './TCard';
 import dummyCards from '../components/data/dummyData'; // Correct path to dummyData.js
-import "./customcss/pagination.css";
+import "./customcss/Pagination.css";
 
 const CardList = ({ cards }) => {
   const itemsPerPage = 8;
