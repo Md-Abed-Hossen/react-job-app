@@ -2,7 +2,7 @@
 import React from 'react';
 import './customcss/Blog.css'; // Optional: Add your styling here
 import Navbar from './Navbar'; 
-import Footer from './footer'; 
+import Footer from './Footer'; 
 
 const Blog = () => {
   const blogPosts = [
