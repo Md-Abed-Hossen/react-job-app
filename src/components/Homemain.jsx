@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
-import Footer from './footer';
+import Footer from './Footer';
 import ContactForm from './ContactForm';
 import CardList from './CardList';
 import dummyCards from './data/dummyData'; // Ensure this path is correct
