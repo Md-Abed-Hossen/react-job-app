@@ -2,7 +2,7 @@
 import React from 'react';
 import './customcss/LoginForm.css'; // Optional: Import a CSS file for styling
 import Navbar from './Navbar';
-import Footer from './footer';
+import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
