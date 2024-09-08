@@ -1,0 +1,31 @@
+/* src/components/CardList.css */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 50px; /* Space between cards */
+    padding: 20px; /* Padding around the grid */
+    flex: 1; /* Allow the card-list to expand and take available space */
+  }
+
+/* src/components/CardList.css */
+
+.card-placeholder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Same number of columns as the card grid */
+    gap: 50px; /* Same gap as the card grid */
+    padding: 20px; /* Same padding as the card grid */
+    height: calc(100% - 80px); /* Adjust based on your desired height for the placeholder */
+  }
+  .listing{
+  height: 740px;
+  width: 96%;
+  }
+
+

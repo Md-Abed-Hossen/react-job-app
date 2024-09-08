@@ -1,0 +1,61 @@
+/* src/components/Card.css */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px; /* Space around each card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px; /* Ensure cards have a minimum height */
+}
+
+.card.hidden {
+  visibility: hidden; /* Hide empty cards while keeping their space */
+}
+
+/* Optional: Additional styling for content inside the card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* Center align text */
+}
+
+.title {
+  font-size: 1.5em; /* Title size */
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.2em; /* Subtitle size */
+  color: #666;
+}
+
+.description {
+  font-size: 14px; /* Description size */
+  margin: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center logo horizontally */
+}
+
+.logo img {
+  width: 50px; /* Logo width */
+  height: 50px; /* Logo height */
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.button {
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
