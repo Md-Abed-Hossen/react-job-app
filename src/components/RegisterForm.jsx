@@ -1,7 +1,7 @@
 // src/components/RegisterForm.jsx
 import React from 'react';
 import NavBar from './Navbar'; // Import your NavBar component
-import Footer from './footer';
+import Footer from './Footer';
 import {Link} from 'react-router-dom'
 
 const RegisterForm = () => {
